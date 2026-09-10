@@ -1,0 +1,64 @@
+{
+  "project_name": "Instituto Motivar",
+  "archetype": "ORGANIC_AND_VIBRANT_COMMUNITY",
+  "theme": "Light mode primary with warm slate tones and energetic puzzle-piece brand accents",
+  "branding": {
+    "logo_identity": "Heart composed of colorful puzzle pieces (Cyan, Electric Blue, Magenta/Pink, Deep Purple gradient) with wordmark 'instituto' (cyan) 'motivar' (deep blue).",
+    "core_mission": "Nonprofit Brazilian association dedicated to comprehensive social care across all causes: neurodiversity (TEA/autism), legal assistance, vulnerability relief, child education, and family support.",
+    "language": "pt-BR"
+  },
+  "colors": {
+    "primary_cyan": "#00C2CB",
+    "primary_deep_blue": "#0F52BA",
+    "accent_magenta": "#E63946",
+    "accent_purple": "#7209B7",
+    "accent_yellow": "#FFB703",
+    "bg_canvas": "#F8FAFC",
+    "surface_card": "#FFFFFF",
+    "surface_soft": "#F1F5F9",
+    "text_dark": "#0F172A",
+    "text_muted": "#475569",
+    "border_subtle": "rgba(15, 82, 186, 0.12)",
+    "pix_emerald": "#00A86B"
+  },
+  "typography": {
+    "heading_font": "Cabinet Grotesk, Outfit, sans-serif",
+    "body_font": "Plus Jakarta Sans, Inter, sans-serif",
+    "accent_mono": "JetBrains Mono, monospace",
+    "scale": {
+      "hero_title": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none",
+      "section_heading": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "card_title": "text-xl font-bold tracking-snug",
+      "body_text": "text-base leading-relaxed text-slate-600",
+      "eyebrow_label": "text-xs uppercase tracking-[0.2em] font-semibold text-cyan-600"
+    }
+  },
+  "layout_patterns": {
+    "header": "Crystal Glassmorphism navbar with logo SVG heart puzzle, responsive desktop menu links (Quem Somos, Atendimentos, Ações, Como Ajudar, Transparência, Contato), PIX fast-donate button, and Admin Login trigger.",
+    "hero": "Asymmetric Bento Hero section featuring high-impact photo of smiling community children, live impact metrics floating badge (+1.200 famílias atendidas, +300 assistências jurídicas, 100% trabalho voluntário), primary CTA 'Doar via PIX' and secondary CTA 'Conhecer Projetos'.",
+    "quem_somos": "Split grid with President Profile (Dra. Ana Paula M. / Leadership bio + photo) alongside the 4 foundational pillars of Instituto Motivar.",
+    "o_que_fazemos": "Care categories grid with interactive category selector: 1. Acolhimento Neurodiverso (TEA/Autismo & Síndromes), 2. Assistência Jurídica Gratuita, 3. Apoio a Famílias em Vulnerabilidade, 4. Atividades Recreativas e Esportivas, 5. Cestas Básicas e Agasalhos.",
+    "acoes_sociais": "Filterable gallery of social projects with live status badges (Concluído / Em Andamento / Recorrente), impact summary, and photo gallery viewer modal.",
+    "como_ajudar": "Interactive Donation Hub featuring instant QR Code & Copy-Paste PIX key generator, volunteer signup form, and transparency commitment.",
+    "cms_admin": "Protected CMS Dashboard modal/route for institute managers to edit photo gallery, create new social actions, modify president bio, and update emergency phone/WhatsApp numbers."
+  },
+  "image_urls": {
+    "hero_community": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBzb2NpYWwlMjB3b3JrJTIwYnJhemlsaWFuJTIwY2hpbGRyZW4lMjBoZWxwJTIwdm9sdW50ZWVyfGVufDB8fHx8MTc4OTAwMTUyN3ww&ixlib=rb-4.1.0&q=85",
+    "president_portrait": "https://images.unsplash.com/photo-1758598304332-94b40ce7c7b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGNvbW11bml0eSUyMGxlYWRlciUyMHBvcnRyYWl0JTIwc21pbGUlMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzg5MDAxNTI3fDA&ixlib=rb-4.1.0&q=85",
+    "action_medical_health": "https://images.unsplash.com/photo-1621353880071-4752fa42cbc7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwyfHxjb21tdW5pdHklMjBzb2NpYWwlMjB3b3JrJTIwYnJhemlsaWFuJTIwY2hpbGRyZW4lMjBoZWxwJTIwdm9sdW50ZWVyfGVufDB8fHx8MTc4OTAwMTUyN3ww&ixlib=rb-4.1.0&q=85",
+    "action_event_food": "https://images.unsplash.com/photo-1621354599227-11f1a2edbe62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHw0fHxjb21tdW5pdHklMjBzb2NpYWwlMjB3b3JrJTIwYnJhemlsaWFuJTIwY2hpbGRyZW4lMjBoZWxwJTIwdm9sdW50ZWVyfGVufDB8fHx8MTc4OTAwMTUyN3ww&ixlib=rb-4.1.0&q=85",
+    "action_child_care": "https://images.unsplash.com/photo-1622560949450-a36360ef213b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwzfHxjb21tdW5pdHklMjBzb2NpYWwlMjB3b3JrJTIwYnJhemlsaWFuJTIwY2hpbGRyZW4lMjBoZWxwJTIwdm9sdW50ZWVyfGVufDB8fHx8MTc4OTAwMTUyN3ww&ixlib=rb-4.1.0&q=85"
+  },
+  "component_instructions": {
+    "interactive_pix_copy": "Provide a clean copy-to-clipboard button with Sonner toast alert ('Chave PIX copiada com sucesso!') for quick mobile donations.",
+    "cms_dashboard": "Provide state persistence in LocalStorage so edits to projects, photos, and texts survive page refreshes.",
+    "testing_attributes": "Include explicit data-testid attributes on all main elements (e.g. data-testid='pix-copy-button', data-testid='admin-login-button', data-testid='project-card-0', data-testid='volunteer-submit-btn')."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Always use cohesive light theme with rich micro-interactions and smooth transitions.",
+    "Never use generic placeholder text; provide meaningful Portuguese copy for Instituto Motivar.",
+    "Include full testability attributes (data-testid) across all user actions.",
+    "Use standard icons from lucide-react or phosphor icons.",
+    "Maintain strict optical padding inside bordered cards."
+  ]
+}
