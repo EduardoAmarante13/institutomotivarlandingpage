@@ -7,7 +7,7 @@ export default function Contato() {
   const waLink = `https://wa.me/${(content.whatsapp || "").replace(/\D/g, "")}`;
 
   const cards = [
-    { icon: MessageCircle, label: "WhatsApp", value: "Fale com a nossa equipe", href: waLink, testid: "contact-whatsapp" },
+    { icon: MessageCircle, label: "WhatsApp", value: content.whatsapp_display || "Fale com a nossa equipe", href: waLink, testid: "contact-whatsapp" },
     { icon: Instagram, label: "Instagram", value: "@motivar.instituto", href: content.instagram, testid: "contact-instagram" },
     { icon: Mail, label: "E-mail", value: content.email, href: `mailto:${content.email}`, testid: "contact-email" },
     { icon: MapPin, label: "Endereço", value: content.endereco, href: null, testid: "contact-address" },

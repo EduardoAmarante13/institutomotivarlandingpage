@@ -37,11 +37,10 @@ const TEXT_GROUPS = [
   {
     title: "Doações, Contato & Transparência",
     fields: [
-      { key: "pix_key", label: "Chave PIX" },
-      { key: "pix_name", label: "Nome do favorecido PIX" },
       { key: "donate_text", label: "Texto de doação", textarea: true },
       { key: "volunteer_text", label: "Texto de voluntariado", textarea: true },
-      { key: "whatsapp", label: "WhatsApp (só números, com DDD e 55)" },
+      { key: "whatsapp", label: "WhatsApp (só números: 55 + DDD + número)" },
+      { key: "whatsapp_display", label: "WhatsApp como aparece no site (ex.: (75) 99222-6452)" },
       { key: "email", label: "E-mail" },
       { key: "instagram", label: "Link do Instagram" },
       { key: "endereco", label: "Endereço" },

@@ -7,6 +7,7 @@ const LINKS = [
   { href: "#atendimentos", label: "Atendimentos" },
   { href: "#acoes", label: "Ações" },
   { href: "#galeria", label: "Galeria" },
+  { href: "#instagram", label: "Instagram" },
   { href: "#ajudar", label: "Como Ajudar" },
   { href: "#contato", label: "Contato" },
 ];
@@ -64,7 +65,7 @@ export default function Navbar() {
             className="inline-flex items-center gap-1.5 bg-brand-blue hover:bg-brand-cyan text-white text-sm font-bold px-4 sm:px-5 py-2.5 rounded-full transition-colors duration-300"
           >
             <Heart size={15} className="fill-current" />
-            Doar
+            Ajudar
           </a>
           <button
             data-testid="navbar-mobile-toggle"

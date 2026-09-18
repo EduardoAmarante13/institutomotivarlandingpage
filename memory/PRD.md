@@ -22,6 +22,9 @@
 - 2026-09-10: Landing page completa (Hero bento, Sobre Nós + card da presidente, Atendimentos, Ações Sociais com filtros, Galeria com lightbox, Como Ajudar com PIX copia-e-cola, Contato, Footer)
 - 2026-09-10: Painel admin protegido (/admin → /admin/painel): CRUD de ações, galeria (upload/URL), edição de todos os textos
 - 2026-09-10: Logo com fundo transparente, aba "Sobre Nós", favicon, título/meta pt-BR
+- 2026-09-18: WhatsApp real (75) 99222-6452; PIX REMOVIDO a pedido do usuário (doações agora via WhatsApp); card "Brechó Motivar" (@brecho.motivar) na seção Como Ajudar
+- 2026-09-18: Seção Instagram com 6 posts reais embutidos (shortcodes de imginn.com/motivar.instituto: quermesse, Seleção Motivar etc.) + stats do perfil (2,3 mil seguidores, 145 posts)
+- 2026-09-18: 3 fotos reais adicionadas à galeria (sede, mural da inclusão, equipe na Quermesse) em /app/frontend/public/fotos/
 
 ## Personas
 - Visitante/doador: conhece o instituto, vê ações, doa via PIX, fala no WhatsApp
@@ -29,11 +32,11 @@
 - Admin (equipe do instituto): atualiza fotos, ações e textos sem código
 
 ## Backlog priorizado
-- P0: Chave PIX real e WhatsApp real (atualizar no painel → Textos do Site)
-- P0: Foto real da presidente e fotos reais das ações (hoje: placeholders de banco de imagens)
-- P1: QR Code PIX gerado automaticamente (BR Code)
+- P0: Foto real da presidente e fotos reais das ações (cards de ações ainda usam banco de imagens)
+- P0: Atualizar shortcodes dos posts do Instagram periodicamente (hoje fixos no código)
+- P1: Chave PIX + QR Code quando o instituto cadastrar (campos removidos do painel por ora)
 - P1: Formulário de voluntariado com envio por e-mail (Resend)
-- P1: Feed do Instagram embutido
+- P1: API oficial do Instagram para feed automático (requer conta Business + token)
 - P2: Seção de transparência com relatórios em PDF
 - P2: Blog/notícias
 

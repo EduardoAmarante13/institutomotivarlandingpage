@@ -53,7 +53,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 bg-brand-blue hover:bg-brand-cyan text-white font-bold px-7 py-3.5 rounded-full transition-colors duration-300 shadow-lg shadow-brand-blue/25"
             >
               <HandHeart size={18} />
-              Doar via PIX
+              Quero ajudar
             </a>
             <a
               href="#acoes"
