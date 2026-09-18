@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu, X, Lock, Heart } from "lucide-react";
 
 const LINKS = [
-  { href: "#quem-somos", label: "Quem Somos" },
+  { href: "#quem-somos", label: "Sobre Nós" },
   { href: "#atendimentos", label: "Atendimentos" },
   { href: "#acoes", label: "Ações" },
   { href: "#galeria", label: "Galeria" },
@@ -27,17 +27,12 @@ export default function Navbar() {
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled || open ? "glass-nav" : "bg-transparent"}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 sm:h-20">
-        <a href="#topo" className="flex items-center gap-2.5" data-testid="navbar-logo">
+        <a href="#topo" className="flex items-center shrink-0" data-testid="navbar-logo">
           <img
             src="/logo.png"
             alt="Instituto Motivar"
-            className="h-10 sm:h-12 w-auto object-contain"
-            onError={(e) => { e.currentTarget.style.display = "none"; }}
+            className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 hover:scale-[1.03]"
           />
-          <span className="font-display font-extrabold text-lg leading-none tracking-tight">
-            <span className="text-brand-cyan">instituto</span>{" "}
-            <span className="text-brand-blue">motivar</span>
-          </span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-7" data-testid="navbar-links">
